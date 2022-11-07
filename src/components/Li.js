@@ -13,7 +13,7 @@ const li = React.memo(({
     provided, 
     snapshot 
 }) => {
-    // console.log("li component");
+    console.log("li component");
 
    const [isEditing, setisEditing] = useState(false)
    const [editedTitle, setEditedTitle] = useState(title)
